@@ -1,0 +1,43 @@
+.home-page {
+  .text-zone {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    max-height: 90%;
+    width: 80%;
+  }
+  
+  h1 {
+    color: #b0b6db;
+    font-size: 108px;
+    font-weight: 300;
+    line-height: 120px;
+
+    strong {
+      color: #8662c6;
+      font-size: 142px;
+      font-weight: bold;
+    }
+  }
+
+  span {
+    color: #b0b6db;
+    font-size: 68px;
+    font-weight: 300;
+    .str1 {
+      color: #e3a952;
+      font-size: 86px;
+      font-weight: 500;
+    }
+    .str2 {
+      color: #f96688;
+      font-size: 86px;
+      font-weight: 500px;
+    }
+    .str3 {
+      color: #7298e7;
+      font-size: 86px;
+      font-weight: 500px;
+    }
+  }
+}

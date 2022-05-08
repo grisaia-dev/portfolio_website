@@ -9,10 +9,10 @@ const Sidebar = () => {
   return (
     <div className='container'>
       <nav className='navbar'>
-        <NavLink exact='true' activeclassname='activeHome' className='home' to='/'>
+        <NavLink className='home' to='/home'>
           <FontAwesomeIcon icon={faHomeUser}/>
         </NavLink>
-        <NavLink activeclassname='activeAbout' className='about' to='/about'>
+        <NavLink className='about' to='/about'>
           <FontAwesomeIcon icon={faUser}/>
         </NavLink>
         <NavLink className='git' to='/git'>

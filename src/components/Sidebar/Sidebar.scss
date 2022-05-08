@@ -19,7 +19,7 @@
       padding: 8px;
       display: block;
       position: relative;
-
+      transition: background 0.25s, color 0.2s;
       &:hover {
         background: #f96789;
         color: #16161e;
@@ -32,7 +32,7 @@
       padding: 8px;
       display: block;
       position: relative;
-
+      transition: background 0.25s, color 0.2s;
       &:hover {
         background: #2bb8ac;
         color: #16161e;
@@ -48,7 +48,7 @@
       padding: 8px;
       display: block;
       position: relative;
-
+      transition: background 0.25s, color 0.2s;
       &:hover {
         background: #e7ae52;
         color: #16161e;
