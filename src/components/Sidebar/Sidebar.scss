@@ -1,0 +1,58 @@
+.container {
+  height: 100%;
+  width: 70px;
+  background: #16161e;
+  position: absolute;
+  top: 0;
+  min-height: 500px;
+
+  .navbar {
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+
+    .home {
+      font-size: 26px;
+      color: #f96789;
+      padding: 8px;
+      display: block;
+      position: relative;
+
+      &:hover {
+        background: #f96789;
+        color: #16161e;
+      }
+    }
+
+    .about {
+      font-size: 26px;
+      color: #2bb8ac;
+      padding: 8px;
+      display: block;
+      position: relative;
+
+      &:hover {
+        background: #2bb8ac;
+        color: #16161e;
+      }
+    }
+    a.activeAbout {
+      background: green;
+    }
+
+    .git {
+      font-size: 26px;
+      color: #e7ae52;
+      padding: 8px;
+      display: block;
+      position: relative;
+
+      &:hover {
+        background: #e7ae52;
+        color: #16161e;
+      }
+    }
+  }
+}
