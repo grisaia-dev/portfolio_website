@@ -15,7 +15,7 @@ const Sidebar = () => {
         <NavLink className='about' to='/about'>
           <FontAwesomeIcon icon={faUser}/>
         </NavLink>
-        <NavLink className='git' to='/git'>
+        <NavLink className='git' to='/about-site'>
           <FontAwesomeIcon icon={faGithub}/>
         </NavLink>
       </nav>

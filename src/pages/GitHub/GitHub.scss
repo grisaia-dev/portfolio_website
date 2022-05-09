@@ -1,0 +1,88 @@
+.about-site {
+  .text-zone {
+    position: absolute;
+    z-index: 3;
+    max-height: 90%;
+    max-width: 40%;
+    left: 9%;
+    top: 40%;
+  }
+
+  h1 {
+    color: #b0b6db;
+    font-size: 60px;
+    line-height: 85px;
+    font-weight: 350;
+    animation: fadeIn 1s 1s both;
+    display: inline-block;
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+  }
+
+  .vite {
+    position: absolute;
+    color: #8662c6;
+    font-weight: 400;
+    z-index: 1;
+    font-size: 70px;
+    top: -30%;
+    left: 110%;
+    animation: fadeInDown 1s 2s both;
+  }
+
+  .loadersCss {
+    position: absolute;
+    color: #e3a952;
+    font-weight: 400;
+    z-index: 1;
+    font-size: 70px;
+    top: -15%;
+    left: 110%;
+    animation: fadeInDown 1s 3s both;
+  }
+
+  .animateCss {
+    position: absolute;
+    color: #2bb8ac;
+    font-weight: 400;
+    z-index: 1;
+    font-size: 70px;
+    top: 0%;
+    left: 110%;
+    animation: fadeInDown 1s 4s both;
+  }
+
+  .react {
+    position: absolute;
+    color: #7298e7;
+    font-weight: 400;
+    z-index: 1;
+    font-size: 70px;
+    top: 15%;
+    left: 110%;
+    animation: fadeInDown 1s 5s both;
+  }
+
+  .fortAwesome {
+    position: absolute;
+    color: white;
+    font-weight: 400;
+    z-index: 1;
+    font-size: 70px;
+    top: 30%;
+    left: 110%;
+    animation: fadeInDown 1s 6s both;
+  }
+
+  .sCss {
+    position: absolute;
+    color: #f96688;
+    font-weight: 400;
+    z-index: 1;
+    font-size: 70px;
+    top: 45%;
+    left: 110%;
+    animation: fadeInDown 1s 7s both;
+  }
+}
