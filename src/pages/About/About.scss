@@ -1,0 +1,66 @@
+.about-page {
+  .text-zone {
+    position: absolute;
+    justify-content: center;
+    z-index: 3;
+    max-height: 90%;
+    max-width: 80%;
+    left: 18%;
+    top: 15%;
+  }
+
+  h1 {
+    text-align: center;
+    color: #b0b6db;
+    font-size: 42px;
+    display: inline-block;
+    line-height: 65px;
+    animation: fadeIn 1s 1s both;
+
+    .about {
+      display: inline-block;
+      font-size: 80px;
+      line-height: 200px;
+      .me {
+        display: inline-block;
+        color: #f96688;
+        line-height: 20px;
+      }
+    }
+
+    .front {
+      color: #e3a952;
+      font-weight: bold;
+      display: inline-block;
+      animation: fadeInLeft 1s 2s both;
+    }
+
+    .end {
+      color: #f96688;
+      font-weight: bold;
+      display: inline-block;
+      animation: fadeInRight 1s 2s both;
+    }
+
+    .react {
+      color: #7298e7;
+      font-weight: 800;
+      display: inline-block;
+      animation: fadeInUp 1s 2s both;
+    }
+
+    .full {
+      color: #8662c6;
+      font-weight: bolder;
+      display: inline-block;
+      animation: bounceIn 1s 2.5s both;
+    }
+
+    .stack {
+      color: #8662c6;
+      font-weight: bolder;
+      display: inline-block;
+      animation: bounceIn 1s 2.5s both;
+    }
+  }
+}

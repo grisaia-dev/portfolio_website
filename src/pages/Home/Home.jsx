@@ -21,7 +21,7 @@ const Home = () => {
         </h1>
       </div>
       <FontAwesomeIcon className='react-icon' icon={faReact}/>
-      <Loader type='ball-triangle-path'/>
+      <Loader type='triangle-skew-spin'/>
     </div>
   )
 }
