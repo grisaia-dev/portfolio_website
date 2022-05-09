@@ -1,7 +1,6 @@
 import React from 'react';
 import Loader from 'react-loaders';
 import './GitHub.scss';
-import '../../assets/vite.svg'
 
 const GitHub = () => {
   return (
