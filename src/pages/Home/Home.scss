@@ -1,43 +1,73 @@
 .home-page {
   .text-zone {
     position: absolute;
-    left: 10%;
+    left: 9%;
     top: 20%;
     max-height: 90%;
-    width: 80%;
+    max-width: 80%;
+    z-index: 3;
   }
   
   h1 {
     color: #b0b6db;
-    font-size: 108px;
-    font-weight: 300;
-    line-height: 120px;
-
-    strong {
+    font-size: 80px;
+    line-height: 100px;
+    font-weight: 350;
+    animation: fadeIn 1s 1s both;
+    display: inline-block;
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    
+    .name {
       color: #8662c6;
-      font-size: 142px;
+      font-size: 108px;
       font-weight: bold;
+      animation: fadeInDown 1s 2s both;
+      display: inline-block;
+    }
+
+    .front {
+      color: #e3a952;
+      font-size: 108px;
+      font-weight: bold;
+      display: inline-block;
+      animation: fadeInLeft 1s 2s both;
+    }
+
+    .end {
+      color: #f96688;
+      font-size: 108px;
+      font-weight: bold;
+      display: inline-block;
+      animation: fadeInRight 1s 2s both;
+    }
+
+    .react {
+      color: #7298e7;
+      font-size: 108px;
+      font-weight: bold;
+      display: inline-block;
+      animation: fadeInUp 1s 2s both;
     }
   }
 
-  span {
-    color: #b0b6db;
-    font-size: 68px;
-    font-weight: 300;
-    .str1 {
-      color: #e3a952;
-      font-size: 86px;
-      font-weight: 500;
+  .react-icon {
+    width: 600px;
+    height: 580px;
+    position: absolute;
+    top: 19%;
+    right: 10%;
+    color: #7298e7;
+    animation: rot 12s linear normal infinite;
+    z-index: 1;
+  }
+  @keyframes rot {
+    0% {
+      transform: rotate(0deg);
     }
-    .str2 {
-      color: #f96688;
-      font-size: 86px;
-      font-weight: 500px;
-    }
-    .str3 {
-      color: #7298e7;
-      font-size: 86px;
-      font-weight: 500px;
+    100% {
+      transform: rotate(360deg);
     }
   }
 }

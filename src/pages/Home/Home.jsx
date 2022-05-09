@@ -1,20 +1,27 @@
+import { faReact } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import Loader from 'react-loaders';
 import './Home.scss';
 
 const Home = () => {
   return (
     <div className='home-page'>
       <div className='text-zone'>
-        <h1>Hello everyone!</h1>
-        <h1>I'm <strong>JateX.</strong></h1>
-        <span>
-          Beginner 
-            <strong className='str1'> Front</strong>
-            <strong className='str2'>end </strong> 
-          developer.
-        </span>
-        <span>(<strong className='str3'>React</strong>)</span>
+        <h1>
+          Hello everyone!
+          <br/>
+          I'm <p className='name'>JateX.</p>
+          <br/>
+          Beginner <p className='front'>Front</p><p className='end'>end</p> developer.
+          <br/>
+          <p className='react'>React</p> in my arsenal.
+          <br/>
+          Presently :)
+        </h1>
       </div>
+      <FontAwesomeIcon className='react-icon' icon={faReact}/>
+      <Loader type='ball-triangle-path'/>
     </div>
   )
 }
