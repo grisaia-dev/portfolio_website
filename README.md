@@ -15,4 +15,4 @@ page 2:
 <image src="/image/git_hub2.png" alt="About me-page">
 
 page 3:
-<image src="/image/git_hub1.png" alt="About site-page">
+<image src="/image/git_hub3.png" alt="About site-page">
