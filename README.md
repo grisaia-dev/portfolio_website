@@ -1,12 +1,3 @@
-# It's my first project on github!
-In project i use:
-  - Scss
-  - React
-  - React-loader
-  - Animate.css
-  - Vite
-  - FortAwesomeIcons
-
 # Screens
 page 1:
 <image src="/image/git_hub1.png" alt="Home-page">
@@ -16,3 +7,10 @@ page 2:
 
 page 3:
 <image src="/image/git_hub3.png" alt="About site-page">
+
+# Install
+`git clone https://github.com/grisaia-dev/portfolio_website.git
+cd portfolio_website
+npm i
+npm run dev``
+
