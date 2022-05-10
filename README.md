@@ -9,10 +9,10 @@ In project i use:
 
 # Screens
 page 1:
-![Home-page](/images/git_hub1.png)
+<image src="/images/git_hub1.png" alt="Home-page">
 
 page 2:
-![About me-page](/images/git_hub2.png)
+<image src="/images/git_hub2.png" alt="About me-page">
 
 page 3:
-![About site-page](/images/git_hub3.png)
+<image src="/images/git_hub1.png" alt="About site-page">
