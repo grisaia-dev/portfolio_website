@@ -9,8 +9,8 @@ page 3:
 <image src="/image/git_hub3.png" alt="About site-page">
 
 # Install
-`git clone https://github.com/grisaia-dev/portfolio_website.git
-cd portfolio_website
-npm i
-npm run dev`
+`git clone https://github.com/grisaia-dev/portfolio_website.git`
+`cd portfolio_website`
+`npm i`
+`npm run dev`
 
