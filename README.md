@@ -12,5 +12,5 @@ page 3:
 `git clone https://github.com/grisaia-dev/portfolio_website.git
 cd portfolio_website
 npm i
-npm run dev``
+npm run dev`
 
